@@ -1,0 +1,86 @@
+body {
+    background: radial-gradient(circle, rgba(6, 179, 204, 1) 52%, rgba(135, 223, 169, 1) 91%, rgba(185, 225, 63, 1) 98%);
+  }
+  .page-logo {
+    width: 400px;
+    left: 50%;
+    position: relative;
+    transform: translate(-50%);
+  }
+  
+  .container {
+    /* border: 1px solid black; */
+    color: #06b3cc;
+    display: flex;
+    width: 100%;
+  }
+  #episodes {
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid #06b3cc;
+    width: 25%;
+    border-radius: 15px;
+    justify-content: center;
+  }
+  .content-div {
+    width: 90%;
+    background-color: #dff7e9;
+    border: 1px solid #b9e13f;
+    border-radius: 20px;
+    text-align: center;
+    margin: 10px 0 10px 0;
+  }
+  .content-div:hover {
+    background-color: #06b3cc;
+    color: #b9e13f;
+    transition: 0.3s;
+  }
+  
+  .button-design {
+    background-color: #06b3cc;
+    color: #dff7e9;
+    border-radius: 15px;
+    margin-top: 5px;
+    border: 1px solid #b9e13f;
+  }
+  .button-design:hover {
+    background-color: #b9e13f;
+    color: #06b3cc;
+    border: 1px solid #dff7e9;
+    transition: 0.3s;
+  }
+  
+  #char-details {
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0px 5px;
+    height: 100%;
+    border: 1px solid #b9e13f;
+    position: sticky;
+    top: 0;
+    overflow: auto;
+    border-radius: 15px;
+  }
+  .content-div2 {
+    width: 200px;
+    height: 220px;
+    animation: fadein 2s;
+  }
+  .img-resize {
+    border-radius: 15px;
+    margin-top: 20px;
+    max-width: 150px;
+  }
+  
+  @keyframes fadein {
+      from {
+          opacity:0;
+          width:180px;
+      }
+      to {
+          opacity:1;
+          width:200px;
+      }
+    }
