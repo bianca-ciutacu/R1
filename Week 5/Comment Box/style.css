@@ -1,0 +1,53 @@
+body {
+    background: linear-gradient(to bottom, #3399ff, #ccccff) fixed;
+  }
+  
+  .container {
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 20px;
+    width: 300px;
+    height: 400px;
+    justify-content: center;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .nameEmail{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      width:200px;
+      height:300px;
+      margin:0 auto 0 auto ;
+      
+  }
+  #btnComment{
+    margin: 0 auto 0 auto;
+    width:150px;
+  }
+  .newComment{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width:400px;
+    margin: 15px auto 0 auto;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+  }
+  .nameDisplay{
+    word-wrap: break-word;
+  }
+  
+  .deleteBtn{
+    width:100px;
+  }
+  
+  .hidden{
+    display:none;
+  }
