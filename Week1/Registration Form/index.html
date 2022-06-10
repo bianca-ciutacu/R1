@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 class="culoare">Registration form</h1>
+    <p style="color: red">
+      *For additional customer suport, you can find us at +0000000000*
+    </p>
+    <img
+      src="https://www.kindpng.com/picc/m/274-2747600_form-icon-png-transparent-png.png"
+      alt="form"
+      width="50px"
+    />
+    <form>
+      <fieldset>
+        <legend class="color">Appointment details:</legend>
+
+        <label class="color" for="day">Day:</label>
+        <select name="day" id="days">
+          <option value="1">Monday</option>
+          <option value="2">Tuesday</option>
+          <option value="3">Wednesday</option>
+          <option value="4">Thursday</option>
+          <option value="5">Friday</option></select
+        ><br />
+        <label class="color" for="hour">Time:</label>
+        <select name="hour" id="hour">
+          <option value="1">9-10</option>
+          <option value="2">10-11</option>
+          <option value="3">11-12</option>
+          <option value="4">12-13</option>
+          <option value="5">13-14</option>
+          <option value="6">14-15</option>
+        </select>
+      </fieldset>
+      <fieldset>
+        <legend class="color">Personal Details:</legend>
+        <label class="color" for="name">Name:</label>
+        <input type="text" id="name" /><br />
+        <label class="color" for="last name">Last Name:</label>
+        <input type="text" id="last name" /><br />
+        <label class="color" for="sex">Sex:</label>
+        <input type="radio" id="sex" name="sex" />M
+        <input name="sex" type="radio" id="sex" />F <br />
+        <label class="colore" for="email">Email:</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="exexample@gmail.com"
+        />
+        <br />
+        <label class="color" for="phone">Phone Number:</label>
+        <input type="text" id="phone" />
+      </fieldset>
+      <fieldset>
+        <legend class="color">
+          Please briefly describe yourself below:
+        </legend>
+        <textarea name="description" cols="50" rows="10"></textarea>
+      </fieldset>
+      <input type="submit" value="Send registration" />
+      <input type="reset" value="Reset registration" />
+    </form>
+  </body>
+</html>
